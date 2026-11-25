@@ -1,94 +1,60 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "5b35ea94-12f7-4ee5-9422-06b3a5a8ab79",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Face Detection using OpenCV\n",
-    "\n",
-    "A real-time face detection project built using **Python and OpenCV**. The system captures video from the webcam and detects human faces using the Haar Cascade classifier.\n",
-    "\n",
-    "## Features\n",
-    "\n",
-    "- Real-time face detection using webcam\n",
-    "- Face bounding box detection\n",
-    "- \"Face Detected\" label\n",
-    "- Simple and lightweight implementation\n",
-    "- Built with OpenCV\n",
-    "\n",
-    "## Technologies Used\n",
-    "\n",
-    "- Python\n",
-    "- OpenCV\n",
-    "- Haar Cascade Classifier\n",
-    "- Jupyter Notebook\n",
-    "\n",
-    "## How It Works\n",
-    "\n",
-    "1. The webcam captures live video.\n",
-    "2. Each video frame is converted to grayscale.\n",
-    "3. OpenCV's Haar Cascade classifier detects faces.\n",
-    "4. A rectangle is drawn around each detected face.\n",
-    "5. The system displays a \"Face Detected\" label.\n",
-    "\n",
-    "## Installation\n",
-    "\n",
-    "Install OpenCV using:\n",
-    "\n",
-    "```bash\n",
-    "pip install opencv-python\n",
-    "```\n",
-    "\n",
-    "## Run the Project\n",
-    "\n",
-    "Open the `Face_Detection.ipynb` notebook in Jupyter Notebook or JupyterLab and run the cells.\n",
-    "\n",
-    "Make sure your computer has a working webcam.\n",
-    "\n",
-    "Press **Q** to stop the webcam.\n",
-    "\n",
-    "## Project Structure\n",
-    "\n",
-    "```text\n",
-    "Face-Detection-OpenCV/\n",
-    "│\n",
-    "├── Face_Detection.ipynb\n",
-    "├── README.md\n",
-    "└── requirements.txt\n",
-    "```\n",
-    "\n",
-    "## Note\n",
-    "\n",
-    "This project uses the computer's local webcam, so it needs to be executed on a local machine. The webcam functionality will not run directly on GitHub.\n",
-    "\n",
-    "## Author\n",
-    "\n",
-    "**Ayush Sharma**"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# Face Detection using OpenCV
+
+A real-time face detection project built using Python and OpenCV.
+
+This project captures live video from a webcam and detects human faces using the Haar Cascade Classifier.
+
+## Features
+
+- Real-time face detection using webcam
+- Face bounding box detection
+- Displays "Face Detected" label
+- Simple and lightweight implementation
+
+## Technologies Used
+
+- Python
+- OpenCV
+- Haar Cascade Classifier
+- Jupyter Notebook
+
+## How It Works
+
+1. The webcam captures live video.
+2. Each video frame is converted into grayscale.
+3. OpenCV's Haar Cascade Classifier detects faces.
+4. A rectangle is drawn around each detected face.
+5. The system displays the "Face Detected" label.
+
+## Installation
+
+Install OpenCV:
+
+```bash
+pip install opencv-python==4.10.0.84
+```
+
+## How to Run
+
+1. Open `Face_Detection.ipynb` in Jupyter Notebook.
+2. Run the notebook cells.
+3. Allow webcam access if prompted.
+4. Press `Q` to stop the webcam.
+
+## Project Structure
+
+```text
+Face-Detection-OpenCV/
+│
+├── Face_Detection.ipynb
+├── README.md
+└── requirements.txt
+```
+
+## Note
+
+This project uses your computer's local webcam, so it needs to be executed on a local machine. Webcam functionality will not run directly on GitHub.
+
+## Author
+
+Ayush Sharma
